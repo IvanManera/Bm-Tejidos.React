@@ -1,17 +1,17 @@
 import './NavBar.css';
-
+import logo from '../assets/images/carrito.png'
 const NavBar = () => {
     return (
         <header>
-            <nav>
-                <ul>     
-                    <img src="imagenes/carrito.png" class="Carro" ></img>                
-                    <li><a href="index.html" className="Comienzodepag">Bm.Tejidos</a></li>
-                    <li><a href="pages/contactos.html">CONTACTO</a></li>
-                    <li><a href="pages/accesorios.html">AMIGURUMIS</a></li>
-                    <li><a href="pages/ropa.html">ROPA</a></li>
-                    <li><a href="pages/paraperros.html">PARA PERROS</a></li>
-                    <li><a href="pages/accesorios.html">ACCESORIOS</a></li>
+            <nav>  
+                <ul>
+                    <li><img className='logocarrito' src={logo}></img></li>               
+                    <li><a href="#" className="Comienzodepag">Bm.Tejidos</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#">AMIGURUMIS</a></li>
+                    <li><a href="#">ROPA</a></li>
+                    <li><a href="#">PARA PERROS</a></li>
+                    <li><a href="#">ACCESORIOS</a></li>
                 </ul>
             </nav>
         </header>

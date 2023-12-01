@@ -4,21 +4,42 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #f0f0f0;
+    justify-content: flex-end;
 }
+
+
 
 ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    padding-top: 20px;
+    color: black;
 }
 
 ul li {
     margin-left: 15px;
+    align-items:center;
 }
 
 .Comienzodepag {
     font-weight: bold;
     color: #333;
     text-decoration: none;
+    font-size: 40px;
+    left: 10%;
+    position: absolute;
+}
+
+.logocarrito {
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+
 }
